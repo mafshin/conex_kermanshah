@@ -1,5 +1,5 @@
 
-var margin = {top: 40, right: 120, bottom: 200, left: 120},
+var margin = {top: 40, right: 120, bottom: 40, left: 120},
     width = window.innerWidth - margin.right - margin.left,
     height = window.innerHeight - margin.top - margin.bottom;
 
