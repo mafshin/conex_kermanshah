@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: BYekan;
+    src: url("../fonts/byekan.otf") format("opentype");
+}
+
+a { text-decoration: none}
+
+.title { text-align: center}
+
+body {
+font-family: BYekan
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 16px Tahoma;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2.5px;
+}
